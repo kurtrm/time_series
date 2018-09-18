@@ -1,0 +1,9 @@
+1. FROM + JOIN: first the product of all tables is formed
+2. WHERE: the where clause filters rows that do not meet the search condition
+3. GROUP BY + (COUNT, SUM, etc): the rows are grouped using the columns in
+the group by clause and the aggregation functions are applied on the grouping
+4. HAVING: like the WHERE clause, but can be applied after aggregation
+5. SELECT: the targeted list of columns are evaluated and returned
+6. DISTINCT: duplicate rows are eliminated
+- Window functions occur here
+7. ORDER BY: the resulting rows are sorted
